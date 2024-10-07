@@ -52,6 +52,17 @@ const Quize = () => {
       }, 1000);
     }
   };
+  
+  const nextQuestion = () => {
+    if (currentQuestion < questionData.length - 1) {
+      setCurrentQuestion((prevQuestion) => prevQuestion + 1);
+      setTimer(30);
+      setIsCorrect(false);
+      setSelectedOption(null); // Reset for the new question
+    } else {
+      setShowScore(true); // End quiz
+    }
+  };
 
   const handleRestartQuize = () => {
     setCurrentQuestion(0);
@@ -68,11 +79,14 @@ const Quize = () => {
       interval = setInterval(() => {
         setTimer((prevTimer) => prevTimer - 1);
       }, 1000);
+    }else if (timer === 0 && !showScore) {
+      nextQuestion();
+
     }
-    else {
-      clearInterval(interval)
-      setShowScore(true)
-    }
+    // else {
+    //   clearInterval(interval)
+    //   setShowScore(true)
+    // }
     return () => clearInterval(interval)
 
   }, [timer, showScore])
