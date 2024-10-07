@@ -1,0 +1,112 @@
+[
+    {
+        "id":1,
+         "question":"What is the main purpose of a Virtual Private Cloud (VPC) in AWS?",
+         "option":[
+            "A) To create isolated network spaces for EC2 instances",
+            "B) To host static websites",
+           " C) To store and retrieve files",
+            "D) To run machine learning models"
+         ],
+         "correctOption":"To create isolated network spaces for EC2 instances"
+    },
+    {
+        "id":2,
+         "question":"2. Which AWS service is primarily used for scalable object storage?",
+         "option":[
+            "A) Amazon EC2",
+            "B) Amazon RDS",
+            "C) Amazon S3",
+            "D) Amazon Lambda"
+         ],
+         "correctOption":"C) Amazon S3"
+    },
+    {
+        "id":3,
+         "question":"3. Which of the following is a characteristic of Amazon EC2?",
+         "option":[
+            "A) Serverless computing",
+            "B) Block storage service",
+            "C) Virtual server hosting",
+            "D) Cloud-based SQL database"
+         ],
+         "correctOption":"C) Virtual server hosting"
+    },
+    {
+        "id":4,
+         "question":"4. What is the default maximum number of VPCs you can create per AWS Region?",
+         "option":[
+            "A)2",
+            "B)5",
+            "C)10",
+            "D)20"
+         ],
+         "correctOption":"B)5"
+    },
+    {
+        "id": 5,
+        "question": "5. Which S3 storage class is best suited for infrequently accessed data?",
+        "option": [
+            "A) S3 Standard",
+            "B) S3 Intelligent-Tiering",
+            "C) S3 Glacier",
+            "D) S3 One Zone-IA"
+        ],
+        "correctOption": "C) S3 Glacier"
+    },
+    {
+        "id": 6,
+        "question": "6. In EC2, what does 'instance type' primarily refer to?",
+        "option": [
+            "A) Operating system",
+            "B) Network bandwidth",
+            "C) Pricing model",
+            "D) Compute capacity (CPU, memory, storage)"
+        ],
+        "correctOption": "D) Compute capacity (CPU, memory, storage)"
+    },
+    {
+        "id": 7,
+        "question": "7. Which of the following statements is true about Amazon S3?",
+        "option": [
+            "A) It is a block storage service.",
+            "B) It is a scalable object storage service.",
+            "C) It is used to run databases.",
+            "D) It automatically scales EC2 instances."
+        ],
+        "correctOption": "B) It is a scalable object storage service."
+    },
+    {
+        "id": 8,
+        "question": "8. What is an Internet Gateway in the context of a VPC?",
+        "option": [
+            "A) A firewall for controlling traffic",
+            "B) A connection between a VPC and the internet",
+            "C) A security tool for encrypting data",
+            "D) A way to create EC2 instances"
+        ],
+        "correctOption": "B) A connection between a VPC and the internet"
+    },
+    {
+        "id": 9,
+        "question": "9. Which pricing model is not available for Amazon EC2?",
+        "option": [
+            "A) On-Demand",
+            "B) Spot Instances",
+            "C) Reserved Instances",
+            "D) Pay-per-Object"
+        ],
+        "correctOption": "D) Pay-per-Object"
+    },
+    {
+        "id": 10,
+        "question": "10. How can you control access to an Amazon S3 bucket?",
+        "option": [
+            "A) Using EC2 key pairs",
+            "B) Using VPC peering",
+            "C) Using IAM policies and bucket policies",
+            "D) Using CloudFront distributions"
+        ],
+        "correctOption": "C) Using IAM policies and bucket policies"
+    }
+]

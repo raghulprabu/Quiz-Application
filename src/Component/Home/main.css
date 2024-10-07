@@ -1,0 +1,53 @@
+.start-buttons {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome{
+    margin-bottom: 15px;
+    margin-right: 50px;
+
+}
+h1{
+ font-family: "Sofia", sans-serif;
+  font-size: 50px;
+  text-shadow: 3px 3px 3px #ababab;
+  margin-bottom: 25px;
+}
+.instruction{
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  height: 150px;
+}
+.instruction li{
+    list-style-type: none;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+text{
+    font-style: bold;
+    font-size: 40px;
+    margin-left: 20px;
+    padding-top: 20px;
+    display: 'flex';
+    align-items: center;
+    
+}
+
+.button-style {
+    color:blanchedalmond;
+    background-color:blue;
+    border: none;
+    padding: 12px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 35px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
