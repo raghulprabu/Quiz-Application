@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import "./Quize.css"
 import questionData from "./question.json"
 import Webcam from "react-webcam";
+import Timer from "./Timer"
 
 
 const Quize = () => {
@@ -52,15 +53,15 @@ const Quize = () => {
       }, 1000);
     }
   };
-  
+
   const nextQuestion = () => {
     if (currentQuestion < questionData.length - 1) {
       setCurrentQuestion((prevQuestion) => prevQuestion + 1);
       setTimer(30);
       setIsCorrect(false);
-      setSelectedOption(null); // Reset for the new question
+      setSelectedOption(null); 
     } else {
-      setShowScore(true); // End quiz
+      setShowScore(true);
     }
   };
 
@@ -134,12 +135,13 @@ const Quize = () => {
               ))}
             </div>
 
-            <div className='timer'>Time Left:
-              <span>{timer}</span>
+            <div className='timer'>
+              <span className='blink'>Time Left:</span>
+              <span><Timer/></span>
             </div>
           </div>
         )}
-      </div>
+      </div> 
     </div>
   )
 }

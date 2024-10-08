@@ -8,7 +8,7 @@
            " C) To store and retrieve files",
             "D) To run machine learning models"
          ],
-         "correctOption":"To create isolated network spaces for EC2 instances"
+         "correctOption":"A) To create isolated network spaces for EC2 instances"
     },
     {
         "id":2,
